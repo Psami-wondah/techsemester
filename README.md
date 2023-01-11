@@ -64,7 +64,7 @@ python3 manage.py test
       "name": "Port-aux-Français, TF",
       "longitude": 70.21937,
       "latitude": -49.34916,
-      "score": -0.01
+      "score": 0.01
     }
   ],
   "status": true

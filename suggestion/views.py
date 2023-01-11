@@ -13,7 +13,7 @@ def get_score(max: float, min: float, value: float):
     value_range = value - min
     if value_range == 0:
         return 0.99
-    return round(0.99 - (value_range / range), 2)
+    return abs(round(0.99 - (value_range / range), 2))
 
 
 class Suggestion(GenericAPIView):
@@ -31,7 +31,6 @@ class Suggestion(GenericAPIView):
         cities = City.objects.filter(Q(name__contains=q))
         serializer = self.serializer_class(instance=cities, many=True)
         _cities = serializer.data
-
 
         longitude = request.query_params.get("longitude")
         latitude = request.query_params.get("latitude")
