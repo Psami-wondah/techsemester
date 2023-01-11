@@ -38,8 +38,8 @@ python3 manage.py test
 
 ### Getting Started
 
-- Base URL: At present this app can only be run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:8000/`, locally. And on render at
-- API Documention Url Swagger: `/api/v1/docs`
+- Base URL: At present this app can only be run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:8000/`, locally. And on render at https://techsemester-suggestions.onrender.com
+- API Documention Url Swagger: `https://techsemester-suggestions.onrender.com/api/v1/docs`
 - Authentication: This version of the application does not require authentication or API keys.
 
 ### Endpoints
