@@ -24,8 +24,6 @@ To run the server, execute:
 python3 manage.py runserver
 ```
 
-The `--reload` flag will detect file changes and restart the server automatically.
-
 ## Testing
 
 To deploy the tests, run
